@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CLF-C02 Technology &amp; Services Practice Questions | Learn730</title>
+<meta name="description" content="15 AWS Cloud Practitioner (CLF-C02) Cloud Technology and Services practice questions with explanations for every correct and incorrect answer. Domain 3 is about 34% of the exam.">
+<link rel="canonical" href="https://solo730.github.io/clf-c02-cloud-technology-services-practice-questions.html">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="theme-color" content="#16233B">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Learn730">
+<meta property="og:title" content="CLF-C02 Technology &amp; Services Practice Questions | Learn730">
+<meta property="og:description" content="15 AWS Cloud Practitioner (CLF-C02) Cloud Technology and Services practice questions with explanations for every correct and incorrect answer. Domain 3 is about 34% of the exam.">
+<meta property="og:url" content="https://solo730.github.io/clf-c02-cloud-technology-services-practice-questions.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CLF-C02 Technology &amp; Services Practice Questions | Learn730">
+<meta name="twitter:description" content="15 AWS Cloud Practitioner (CLF-C02) Cloud Technology and Services practice questions with explanations for every correct and incorrect answer. Domain 3 is about 34% of the exam.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2316233B'/%3E%3Ccircle cx='32' cy='32' r='15' fill='%23FFE066'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebPage",
+   "@id": "https://solo730.github.io/clf-c02-cloud-technology-services-practice-questions.html#webpage",
+   "url": "https://solo730.github.io/clf-c02-cloud-technology-services-practice-questions.html",
+   "name": "CLF-C02 Technology & Services Practice Questions | Learn730",
+   "description": "15 AWS Cloud Practitioner (CLF-C02) Cloud Technology and Services practice questions with explanations for every correct and incorrect answer. Domain 3 is about 34% of the exam.",
+   "inLanguage": "en",
+   "datePublished": "2026-09-21",
+   "dateModified": "2026-09-21",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Solo730",
+    "url": "https://solo730.github.io/"
+   },
+   "breadcrumb": {
+    "@id": "https://solo730.github.io/clf-c02-cloud-technology-services-practice-questions.html#breadcrumb"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://solo730.github.io/clf-c02-cloud-technology-services-practice-questions.html#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Solo730",
+     "item": "https://solo730.github.io/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "CLF-C02 practice questions",
+     "item": "https://solo730.github.io/clf-c02-practice-questions.html"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Cloud Technology and Services",
+     "item": "https://solo730.github.io/clf-c02-cloud-technology-services-practice-questions.html"
+    }
+   ]
+  },
+  {
+   "@type": "LearningResource",
+   "name": "AWS Cloud Practitioner (CLF-C02) Cloud Technology and Services practice questions",
+   "url": "https://solo730.github.io/clf-c02-cloud-technology-services-practice-questions.html",
+   "learningResourceType": "Practice problem",
+   "educationalLevel": "Beginner",
+   "teaches": "CLF-C02 Domain 3: Cloud Technology and Services",
+   "inLanguage": "en",
+   "isAccessibleForFree": true,
+   "provider": {
+    "@type": "Organization",
+    "name": "Solo730 Multimedia LLC",
+    "url": "https://solo730.github.io/"
+   }
+  }
+ ]
+}
+</script>
+<style>
+:root {
+  --bg:#F4F6F9; --surface:#FFFFFF; --ink:#16233B; --muted:#56637D; --line:#D3DAE6;
+  --accent:#1F4FD8; --on-accent:#FFFFFF; --mark:#FFE066; --on-mark:#16233B; --wrong:#B3261E;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#0F1626; --surface:#172036; --ink:#E6EBF5; --muted:#9AA7C0; --line:#2A3654;
+    --accent:#8FADFF; --on-accent:#0F1626; --mark:#F2CF4A; --on-mark:#16233B; --wrong:#FF8A80;
+  }
+}
+*, *::before, *::after { box-sizing:border-box; }
+html { -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink); font:1rem/1.65 var(--sans); }
+a { color:var(--accent); }
+.wrap { max-width:44rem; margin:0 auto; padding:0 1.25rem; }
+:focus-visible { outline:3px solid var(--accent); outline-offset:2px; border-radius:4px; }
+.sr { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+.topbar { display:flex; align-items:center; justify-content:space-between; padding:1rem 0; }
+.brand { font-weight:700; letter-spacing:.01em; color:var(--ink); text-decoration:none; }
+.btn { display:inline-block; padding:.65rem 1.1rem; border-radius:8px; font-weight:600; text-decoration:none;
+  background:var(--accent); color:var(--on-accent); border:2px solid var(--accent); }
+.btn.alt { background:transparent; color:var(--accent); }
+.btn.small { padding:.4rem .8rem; font-size:.9rem; }
+header.hero { padding:1.5rem 0 1rem; }
+h1 { font:700 clamp(2rem,6.2vw,3.1rem)/1.1 var(--serif); letter-spacing:-.015em; margin:0 0 1rem; }
+.lead { font-size:1.125rem; max-width:38rem; margin:0 0 .75rem; }
+.cta-row { display:flex; flex-wrap:wrap; gap:.75rem; margin:1.25rem 0 0; }
+.scorebar { position:sticky; top:0; z-index:5; background:color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter:blur(6px); border-bottom:1px solid var(--line); margin-top:1.5rem; }
+.scorebar .wrap { padding-top:.55rem; padding-bottom:.55rem; font-size:.95rem; color:var(--muted); }
+.scorebar strong { color:var(--ink); }
+h2 { font:700 1.6rem/1.2 var(--serif); margin:3rem 0 .75rem; }
+.q { padding:2rem 0 1.5rem; border-top:1px solid var(--line); }
+.q:first-of-type { border-top:0; }
+.q h3 { font:600 .95rem/1.3 var(--sans); color:var(--muted); margin:0 0 .6rem; display:flex; gap:.6rem; align-items:baseline; }
+.num { font:700 1rem var(--serif); color:var(--ink); min-width:1.6rem; }
+.stem { font:400 1.25rem/1.5 var(--serif); margin:0 0 1rem; max-width:40rem; }
+.options { list-style:none; margin:0; padding:0; display:grid; gap:.55rem; }
+.opt { display:flex; gap:.85rem; align-items:flex-start; padding:.7rem .9rem; background:var(--surface);
+  border:1.5px solid var(--line); border-radius:10px; }
+.js .opt { cursor:pointer; }
+.bubble { flex:none; width:1.9rem; height:1.9rem; border-radius:50%; border:1.5px solid var(--ink);
+  display:grid; place-items:center; font:600 .9rem var(--sans); }
+.opt-text { padding-top:.12rem; }
+.js .opt:not(.locked):hover { border-color:var(--ink); }
+.opt.picked { border-color:var(--ink); }
+.opt.picked .bubble { background:var(--ink); color:var(--bg); }
+.opt.is-correct { border:2px solid var(--ink); padding:calc(.7rem - .5px) calc(.9rem - .5px); }
+.opt.is-correct .bubble { background:var(--mark); color:var(--on-mark); border-color:var(--ink); }
+.opt.is-correct .opt-text::after { content:"  Correct answer"; font-weight:700; font-size:.85rem; color:var(--muted); }
+.opt.is-wrong { border-color:var(--wrong); }
+.opt.is-wrong .bubble { border-color:var(--wrong); color:var(--wrong); }
+.opt.is-wrong .opt-text::after { content:"  Your answer"; font-weight:700; font-size:.85rem; color:var(--wrong); }
+.check { margin-top:.75rem; font:600 1rem var(--sans); padding:.6rem 1.1rem; border-radius:8px;
+  border:2px solid var(--accent); background:var(--accent); color:var(--on-accent); cursor:pointer; }
+.check:disabled { opacity:.45; cursor:not-allowed; }
+.verdict { margin:.75rem 0 0; font-weight:700; }
+.verdict:empty { display:none; }
+.explain { margin-top:.9rem; }
+.explain summary { cursor:pointer; color:var(--accent); font-weight:600; padding:.25rem 0; }
+.explain[open] summary { margin-bottom:.4rem; }
+.explain p { margin:.4rem 0; max-width:40rem; }
+.why-head { font-weight:600; margin-top:.9rem !important; }
+.why { margin:.25rem 0 0; padding-left:1.1rem; max-width:40rem; }
+.why li { margin:.3rem 0; }
+.prose { max-width:40rem; }
+.prose h3 { font:700 1.05rem/1.3 var(--sans); margin:1.5rem 0 .25rem; }
+.prose p { margin:.25rem 0 .5rem; }
+.domains { list-style:none; margin:1rem 0 0; padding:0; display:grid; gap:.75rem; }
+.domains li { background:var(--surface); border:1.5px solid var(--line); border-radius:10px; padding:.9rem 1rem; }
+.domains a.dlink { font:700 1.1rem/1.3 var(--serif); }
+.domains .meta { color:var(--muted); font-size:.92rem; margin:.15rem 0 0; }
+.domains .blurb { margin:.35rem 0 0; }
+.cta-card { margin:3rem 0 2rem; padding:1.5rem; border:2px solid var(--ink); border-radius:12px; background:var(--surface); }
+.cta-card h2 { margin:0 0 .5rem; font-size:1.4rem; }
+.cta-card p { margin:0 0 .5rem; }
+footer { border-top:1px solid var(--line); padding:1.5rem 0 3rem; color:var(--muted); font-size:.9rem; }
+footer p { margin:.5rem 0; max-width:40rem; }
+footer nav a { margin-right:1rem; }
+@media (prefers-reduced-motion: no-preference) {
+  .opt { transition:border-color .12s, background-color .12s; }
+  .bubble { transition:background-color .12s, color .12s; }
+}
+@media (max-width:30rem) { .stem { font-size:1.15rem; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <a class="brand" href="https://solo730.github.io/learn730/">Learn730</a>
+    <a class="btn small alt" href="https://play.google.com/store/apps/details?id=com.solo730.learn730ccp&amp;referrer=utm_source%3Dseo%26utm_medium%3Dwebsite%26utm_campaign%3Dclf_c02_technology">Get the Android app</a>
+  </div>
+  <header class="hero">
+    <h1>CLF-C02 Cloud Technology and Services Practice Questions</h1>
+    <p class="lead">Fifteen practice questions for Domain 3 of the AWS Certified Cloud Practitioner (CLF-C02) exam. Choose an answer to check it, then read why each wrong option is wrong.</p>
+    <p class="lead">Cloud Technology and Services is about 34% of the scored exam content, the largest domain. It covers compute, storage, databases, networking, global infrastructure, and AI and analytics services.</p>
+    <div class="cta-row">
+      <a class="btn" href="https://solo730.github.io/learn730/">Practice all 200 questions in your browser</a>
+      <a class="btn alt" href="https://play.google.com/store/apps/details?id=com.solo730.learn730ccp&amp;referrer=utm_source%3Dseo%26utm_medium%3Dwebsite%26utm_campaign%3Dclf_c02_technology">Get the Android app</a>
+    </div>
+  </header>
+</div>
+
+<div class="scorebar"><div class="wrap"><span id="score" aria-live="polite">15 questions</span></div></div>
+
+<main class="wrap">
+  <h2>Practice questions</h2>
+<article class="q" id="q1">
+<h3><span class="num">1</span> Availability Zones</h3>
+<p class="stem">Which term describes one or more discrete data centers with redundant power, networking, and connectivity within an AWS Region?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>Availability Zone</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>Edge location</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>AWS Region</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Virtual private cloud (VPC)</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> An Availability Zone (AZ) is one or more discrete data centers with redundant power, networking, and connectivity. A Region contains multiple AZs that are physically separate but connected by low-latency links.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> Edge locations are sites that cache content closer to users for services such as Amazon CloudFront.</li>
+<li><strong>C.</strong> A Region is a geographic area that contains multiple AZs.</li>
+<li><strong>D.</strong> A VPC is a logically isolated virtual network in your account, not a physical facility.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q2">
+<h3><span class="num">2</span> High availability with Availability Zones</h3>
+<p class="stem">A company wants its application on Amazon EC2 to keep running if one data center has a problem. What should the company do?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>Deploy instances across multiple Availability Zones</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>Use one larger instance in a single Availability Zone</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>Increase the size of the instance&#x27;s EBS volume</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Run everything in one Availability Zone and take daily snapshots</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> Spreading instances across AZs, typically behind a load balancer, means a problem in one AZ does not take the application down.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> A single AZ is a single point of failure regardless of instance size.</li>
+<li><strong>C.</strong> Volume size has no effect on availability during an AZ outage.</li>
+<li><strong>D.</strong> Snapshots help recovery but do not keep the application running during an outage.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q3">
+<h3><span class="num">3</span> Content delivery</h3>
+<p class="stem">Which AWS service delivers content to users with low latency by caching it at edge locations?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>Amazon CloudFront</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>Amazon Route 53</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>AWS Direct Connect</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Amazon VPC</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> Amazon CloudFront is a content delivery network (CDN) that caches content at edge locations close to users.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> Route 53 is a DNS service. It does not cache your content.</li>
+<li><strong>C.</strong> Direct Connect is a dedicated private network connection from your premises to AWS.</li>
+<li><strong>D.</strong> A VPC is a private virtual network within a Region.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q4">
+<h3><span class="num">4</span> Serverless compute</h3>
+<p class="stem">Which AWS service runs code in response to events without requiring the customer to provision or manage servers?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>AWS Lambda</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>Amazon EC2</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>AWS Elastic Beanstalk</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Amazon Lightsail</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> AWS Lambda runs your code in response to triggers, and you pay only for the compute time your code uses.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> EC2 provides virtual servers that you configure, patch, and manage.</li>
+<li><strong>C.</strong> Elastic Beanstalk deploys and manages applications for you, but it still provisions servers such as EC2 instances in your account.</li>
+<li><strong>D.</strong> Lightsail provides simple virtual private servers and other prebuilt resources with predictable pricing.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q5">
+<h3><span class="num">5</span> Containers</h3>
+<p class="stem">A company runs containerized applications and does not want to manage the underlying servers. Which AWS compute option meets this requirement?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>AWS Fargate</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>Amazon EC2 instances that the company manages</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>AWS Outposts</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Amazon EBS</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> AWS Fargate is a serverless compute engine for containers. It works with Amazon ECS and Amazon EKS, so you do not provision or manage servers.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> Running containers on EC2 means you manage the instances.</li>
+<li><strong>C.</strong> Outposts extends AWS infrastructure and services to on-premises facilities.</li>
+<li><strong>D.</strong> EBS is block storage, not a compute option.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q6">
+<h3><span class="num">6</span> Auto scaling</h3>
+<p class="stem">Which AWS service automatically adds or removes Amazon EC2 instances based on demand?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>Amazon EC2 Auto Scaling</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>Elastic Load Balancing</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>AWS Config</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Amazon CloudFront</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> EC2 Auto Scaling launches and terminates instances according to scaling policies and health checks, keeping capacity matched to demand.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> Elastic Load Balancing distributes incoming traffic across targets. It does not add or remove instances, though it is often used together with Auto Scaling.</li>
+<li><strong>C.</strong> AWS Config records and evaluates resource configurations.</li>
+<li><strong>D.</strong> CloudFront caches content at edge locations.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q7">
+<h3><span class="num">7</span> Object storage</h3>
+<p class="stem">Which AWS storage service provides object storage designed for 99.999999999% (11 nines) durability?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>Amazon S3</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>Amazon EBS</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>Amazon EFS</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Amazon EC2 instance store</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> Amazon S3 stores data as objects in buckets, with virtually unlimited scale and 11 nines of durability.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> EBS is block storage for EC2 instances.</li>
+<li><strong>C.</strong> EFS is a managed file system that many instances can mount at once.</li>
+<li><strong>D.</strong> Instance store is temporary block storage physically attached to the host. Its data is lost when the instance is terminated.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q8">
+<h3><span class="num">8</span> Block storage</h3>
+<p class="stem">Which AWS storage option provides block storage volumes for Amazon EC2 that can persist independently of the life of an instance?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>Amazon EBS</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>EC2 instance store</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>Amazon S3 Glacier Deep Archive</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Amazon EFS</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> Amazon EBS volumes attach to instances like disks and can persist separately from them. You can also back them up with snapshots.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> Instance store is temporary storage tied to the life of the instance.</li>
+<li><strong>C.</strong> Glacier Deep Archive is archival object storage with retrieval times measured in hours.</li>
+<li><strong>D.</strong> EFS is a shared file system, not block storage.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q9">
+<h3><span class="num">9</span> S3 storage classes</h3>
+<p class="stem">A company stores data that is accessed infrequently but must be available within milliseconds when requested. Which Amazon S3 storage class is the MOST cost-effective fit?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>S3 Standard-Infrequent Access (S3 Standard-IA)</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>S3 Standard</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>S3 Glacier Deep Archive</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>S3 Glacier Flexible Retrieval</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> S3 Standard-IA has a lower storage price than S3 Standard, millisecond access, and a per-GB retrieval fee. It suits data you rarely read but need quickly.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> S3 Standard is designed for frequently accessed data and has a higher storage price.</li>
+<li><strong>C.</strong> Glacier Deep Archive is the lowest-cost archive class, but retrieval takes hours.</li>
+<li><strong>D.</strong> Glacier Flexible Retrieval is an archive class with retrieval times from minutes to hours.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q10">
+<h3><span class="num">10</span> Relational databases</h3>
+<p class="stem">Which AWS service is a managed relational database service that supports engines such as MySQL, PostgreSQL, and Oracle?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>Amazon RDS</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>Amazon DynamoDB</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>Amazon Redshift</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Amazon ElastiCache</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> Amazon RDS manages routine tasks such as provisioning, patching, backups, and failover for relational databases.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> DynamoDB is a NoSQL key-value and document database.</li>
+<li><strong>C.</strong> Redshift is a data warehouse for analytics.</li>
+<li><strong>D.</strong> ElastiCache is an in-memory caching service.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q11">
+<h3><span class="num">11</span> NoSQL databases</h3>
+<p class="stem">Which AWS service is a serverless NoSQL database that delivers single-digit millisecond performance at any scale?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>Amazon DynamoDB</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>Amazon RDS</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>Amazon Redshift</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Amazon Aurora</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> Amazon DynamoDB is a fully managed, serverless key-value and document database built for single-digit millisecond performance at any scale.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> RDS is relational and runs on database instances you choose and size.</li>
+<li><strong>C.</strong> Redshift is a data warehouse for analytic queries over large datasets.</li>
+<li><strong>D.</strong> Aurora is a relational database compatible with MySQL and PostgreSQL.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q12">
+<h3><span class="num">12</span> Virtual networks</h3>
+<p class="stem">Which AWS service lets a company launch resources in a logically isolated virtual network that it defines?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>Amazon VPC</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>AWS Direct Connect</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>Amazon Route 53</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>AWS Shield</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> Amazon VPC gives you a logically isolated section of the AWS Cloud where you control IP ranges, subnets, route tables, and gateways.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> Direct Connect provides a dedicated connection from your premises to AWS.</li>
+<li><strong>C.</strong> Route 53 is a DNS service.</li>
+<li><strong>D.</strong> AWS Shield protects against DDoS attacks.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q13">
+<h3><span class="num">13</span> DNS</h3>
+<p class="stem">Which AWS service provides a highly available and scalable Domain Name System (DNS) web service?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>Amazon Route 53</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>Amazon CloudFront</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>Elastic Load Balancing</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Amazon VPC</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> Amazon Route 53 is a DNS service that also handles domain registration and health checks with DNS failover.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> CloudFront is a content delivery network.</li>
+<li><strong>C.</strong> Elastic Load Balancing distributes traffic across targets within a Region.</li>
+<li><strong>D.</strong> A VPC is a virtual network, not a DNS service.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q14">
+<h3><span class="num">14</span> Infrastructure as code</h3>
+<p class="stem">A company wants to define its AWS infrastructure in templates and create the same environment repeatedly. Which service should it use?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>AWS CloudFormation</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>AWS Config</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>AWS Trusted Advisor</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Amazon Inspector</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> AWS CloudFormation provisions and manages resources from templates written in JSON or YAML. This is infrastructure as code.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> AWS Config records resource configurations and evaluates compliance. It does not create resources.</li>
+<li><strong>C.</strong> Trusted Advisor provides best-practice recommendations.</li>
+<li><strong>D.</strong> Amazon Inspector scans workloads for vulnerabilities.</li>
+</ul>
+</details>
+</article>
+<article class="q" id="q15">
+<h3><span class="num">15</span> AI and machine learning services</h3>
+<p class="stem">Which AWS service extracts text and data from scanned documents such as forms and tables?</p>
+<ol class="options" type="A">
+<li class="opt" data-correct="true"><span class="bubble" aria-hidden="true">A</span><span class="opt-text"><span class="sr">Option A: </span>Amazon Textract</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">B</span><span class="opt-text"><span class="sr">Option B: </span>Amazon Rekognition</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">C</span><span class="opt-text"><span class="sr">Option C: </span>Amazon Comprehend</span></li>
+<li class="opt" data-correct="false"><span class="bubble" aria-hidden="true">D</span><span class="opt-text"><span class="sr">Option D: </span>Amazon Polly</span></li>
+</ol>
+<p class="verdict" aria-live="polite"></p>
+<details class="explain">
+<summary>Show answer and explanation</summary>
+<p><strong>Answer: A.</strong> Amazon Textract uses machine learning to extract printed text, handwriting, and structured data such as tables and forms from scanned documents.</p>
+<p class="why-head">Why the other options are wrong</p>
+<ul class="why">
+<li><strong>B.</strong> Rekognition analyzes images and videos, for example detecting objects and faces.</li>
+<li><strong>C.</strong> Comprehend applies natural language processing to text you already have in text form.</li>
+<li><strong>D.</strong> Polly converts text into lifelike speech.</li>
+</ul>
+</details>
+</article>
+
+  <h2>What Domain 3 covers on the CLF-C02</h2>
+  <div class="prose">
+<h3>Deploying and operating in AWS</h3>
+<p>Know the ways to interact with AWS: the Management Console, the AWS CLI, and SDKs, plus infrastructure as code with AWS CloudFormation. Understand cloud, hybrid, and on-premises deployment models.</p>
+<h3>Global infrastructure</h3>
+<p>A Region is a geographic area with multiple Availability Zones. Each AZ is one or more data centers with redundant power and networking. Edge locations cache content for services such as Amazon CloudFront. Choose Regions by compliance requirements, latency, cost, and service availability.</p>
+<h3>Compute</h3>
+<p>Amazon EC2, AWS Lambda, containers with Amazon ECS, Amazon EKS, and AWS Fargate, AWS Elastic Beanstalk, EC2 Auto Scaling, and Elastic Load Balancing. Be able to pick between virtual servers, serverless functions, and containers from a short scenario.</p>
+<h3>Databases</h3>
+<p>Amazon RDS and Amazon Aurora for relational workloads, Amazon DynamoDB for NoSQL, Amazon Redshift for data warehousing, Amazon ElastiCache for caching, and AWS Database Migration Service for moving databases.</p>
+<h3>Networking</h3>
+<p>Amazon VPC with subnets, security groups, and network ACLs; Amazon Route 53 for DNS; Amazon CloudFront for content delivery; and AWS Direct Connect and AWS VPN for connecting on-premises networks.</p>
+<h3>Storage</h3>
+<p>Amazon S3 and its storage classes, Amazon EBS block storage, Amazon EFS file storage, and AWS Backup. Know which storage type fits object, block, and file needs, and how access frequency drives the S3 class.</p>
+<h3>AI, machine learning, and analytics</h3>
+<p>Services such as Amazon SageMaker, Rekognition, Textract, Comprehend, Polly, and Transcribe for AI and machine learning, and Amazon Athena and Amazon QuickSight for analytics. The exam tests matching a described task to the right service.</p>
+    <h3>How to use these questions</h3>
+    <p>This is the biggest domain, so it repays the most practice time. Build a one-line summary for each service (what it is, what it is not) and quiz yourself on the look-alikes: EBS versus EFS versus S3, RDS versus DynamoDB, CloudFront versus Route 53.</p>
+  </div>
+
+  <h2>Practice the other domains</h2>
+  <p>The exam covers four domains. <a href="/clf-c02-practice-questions.html">See all CLF-C02 practice questions by domain</a>, or continue with one of these:</p>
+  <ul class="domains">
+<li><a class="dlink" href="/clf-c02-cloud-concepts-practice-questions.html">CLF-C02 Cloud Concepts practice questions</a><p class="meta">Domain 1, about 24% of the exam, 15 questions</p><p class="blurb">Benefits of the cloud, the Well-Architected Framework, migration strategies, and cloud economics.</p></li>
+<li><a class="dlink" href="/clf-c02-security-compliance-practice-questions.html">CLF-C02 Security and Compliance practice questions</a><p class="meta">Domain 2, about 30% of the exam, 15 questions</p><p class="blurb">The shared responsibility model, IAM, security services such as GuardDuty and Inspector, and compliance resources.</p></li>
+<li><a class="dlink" href="/clf-c02-billing-pricing-support-practice-questions.html">CLF-C02 Billing, Pricing, and Support practice questions</a><p class="meta">Domain 4, about 12% of the exam, 12 questions</p><p class="blurb">EC2 pricing models, cost management tools, AWS Organizations billing, and AWS Support.</p></li>
+  </ul>
+
+  <section class="cta-card">
+    <h2>Keep practicing</h2>
+    <p>Learn730 has 200 CLF-C02 practice questions across all four domains, 134 flashcards, and a beginner Cloud 101 section. A timed simulation exam is coming.</p>
+    <div class="cta-row">
+      <a class="btn" href="https://solo730.github.io/learn730/">Open in your browser</a>
+      <a class="btn alt" href="https://play.google.com/store/apps/details?id=com.solo730.learn730ccp&amp;referrer=utm_source%3Dseo%26utm_medium%3Dwebsite%26utm_campaign%3Dclf_c02_technology">Get the Android app</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav aria-label="Site"><a href="https://solo730.github.io/">Solo730</a><a href="https://solo730.github.io/clf-c02-practice-questions.html">CLF-C02 practice questions</a><a href="https://solo730.github.io/learn730/">Learn730 web app</a><a href="https://solo730.github.io/case-study-learn730.html">How Learn730 was built</a><a href="https://solo730.github.io/learn730/privacy.html">Privacy policy</a></nav>
+    <p>Last reviewed September 2026. These are original practice questions written for study, not questions from the real exam. Confirm service details in the official <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" rel="noopener">AWS Certified Cloud Practitioner</a> exam guide and AWS documentation.</p>
+    <p>Learn730 is an independent study resource and is not affiliated with, authorized, maintained, sponsored, or endorsed by Amazon Web Services (AWS) or Amazon.com, Inc. AWS and Amazon Web Services are trademarks of Amazon.com, Inc. or its affiliates, used here solely to identify the exam this resource helps you prepare for.</p>
+    <p>&copy; 2026 Solo730 Multimedia LLC</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  document.documentElement.classList.add('js');
+  var qs = [].slice.call(document.querySelectorAll('.q'));
+  var total = qs.length, answered = 0, right = 0;
+  var scoreEl = document.getElementById('score');
+  function updateScore() {
+    scoreEl.innerHTML = answered
+      ? '<strong>' + right + ' of ' + answered + ' correct</strong>, ' + (total - answered) + ' left'
+      : total + ' questions';
+  }
+  qs.forEach(function (q) {
+    var opts = [].slice.call(q.querySelectorAll('.opt'));
+    var need = opts.filter(function (o) { return o.dataset.correct === 'true'; }).length;
+    var picked = [], done = false, btn = null;
+    var verdict = q.querySelector('.verdict');
+    function finish() {
+      done = true;
+      var ok = true;
+      opts.forEach(function (o) {
+        var c = o.dataset.correct === 'true';
+        var p = picked.indexOf(o) > -1;
+        o.classList.remove('picked');
+        o.classList.add('locked');
+        o.removeAttribute('tabindex');
+        if (c) o.classList.add('is-correct');
+        if (p && !c) { o.classList.add('is-wrong'); ok = false; }
+        if (!p && c) ok = false;
+      });
+      if (btn) btn.remove();
+      q.querySelector('details').open = true;
+      verdict.textContent = ok ? 'Correct.' : 'Not quite. Review the explanation below.';
+      answered++; if (ok) right++;
+      updateScore();
+    }
+    opts.forEach(function (o) {
+      o.setAttribute('role', need > 1 ? 'checkbox' : 'button');
+      o.tabIndex = 0;
+      if (need > 1) o.setAttribute('aria-checked', 'false');
+      function act() {
+        if (done) return;
+        if (need === 1) { picked = [o]; finish(); return; }
+        var i = picked.indexOf(o);
+        if (i > -1) { picked.splice(i, 1); o.classList.remove('picked'); o.setAttribute('aria-checked', 'false'); }
+        else { picked.push(o); o.classList.add('picked'); o.setAttribute('aria-checked', 'true'); }
+        if (btn) btn.disabled = picked.length !== need;
+      }
+      o.addEventListener('click', act);
+      o.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); act(); }
+      });
+    });
+    if (need > 1) {
+      btn = document.createElement('button');
+      btn.type = 'button'; btn.className = 'check'; btn.disabled = true;
+      btn.textContent = 'Check answer';
+      btn.addEventListener('click', function () { if (!done && picked.length === need) finish(); });
+      q.querySelector('.options').insertAdjacentElement('afterend', btn);
+    }
+  });
+  updateScore();
+})();
+</script>
+</body>
+</html>
