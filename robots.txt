@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://solo730.github.io/sitemap.xml
